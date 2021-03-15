@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+:root {
+  --primary-white: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* =================== Navbar ========================= */
+.logo22 {
+  width: 2rem;
+  height: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-toggler-icon {
+  color: #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.linky {
+  text-transform: uppercase;
+  margin: 0 10px;
+  color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+.linky:focus {
+  border-top: 10px solid yellow;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linky:hover {
+  color: yellow;
 }
