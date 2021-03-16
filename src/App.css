@@ -39,7 +39,7 @@ nav {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: 8rem;
   top: 0;
   flex-direction: column;
   justify-content: center;
@@ -50,6 +50,9 @@ nav {
 
 @media (max-width: 500px) {
   .main-info h1 {
+    font-size: 1.2rem;
+  }
+  .typed-text {
     font-size: 1.2rem;
   }
 }
@@ -160,7 +163,7 @@ nav {
   height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: #fff;
 }
